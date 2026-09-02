@@ -25,12 +25,12 @@ Seed data is JSON, loaded into a store module at boot. Route handlers read and w
 
 This file loads every session, so it stays short. Detail that only matters once you open a particular kind of file lives in `.claude/rules/` and loads when you do:
 
-| Rule | Applies to |
-| --- | --- |
-| `money.md` | `src/lib/`, `src/app/api/`, `src/data/` |
-| `api-routes.md` | `src/app/api/` |
-| `cards.md` | anything card-related |
-| `components.md` | `src/components/`, `src/app/` |
+| Rule            | Applies to                              |
+| --------------- | --------------------------------------- |
+| `money.md`      | `src/lib/`, `src/app/api/`, `src/data/` |
+| `api-routes.md` | `src/app/api/`                          |
+| `cards.md`      | anything card-related                   |
+| `components.md` | `src/components/`, `src/app/`           |
 
 ## Conventions
 
